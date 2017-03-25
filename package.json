@@ -13,12 +13,11 @@
     "mocha": "^2.3.4"
   },
   "scripts": {
-    "preinstall": "./install.sh",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec && ./node_modules/.bin/codecov"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/flovilmart/parse-image.git"
+    "url": "https://github.com/marleyiam/parse-image.git"
   },
   "author": "Florent Vilmart",
   "license": "MIT",
